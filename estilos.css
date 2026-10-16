@@ -1,0 +1,330 @@
+
+* {
+    margin:0;
+    padding:0;
+}
+
+body {
+    background:lightpink;
+    color:#4a1942;
+    font-size:16px;
+    padding:70px 20px 20px 20px;
+    font-family:Arial, Helvetica, Sans-serif;
+}
+
+h1 {
+    font-size:50px;
+    margin:10px;
+}
+
+h2 {
+    font-size:1.8em;               
+    margin:10px;
+}
+
+h3 {
+    font-size:1.2rem;              
+    margin:10px;
+}
+
+p {
+    margin:10px;
+}
+
+hr {
+    height:3px;
+    background:rgb(194,24,91);     
+    border:none;
+    margin:20px 0;
+}
+
+
+h1,h2,h3 {
+    color:#880e4f;
+}
+
+
+#titulo {
+    background:rgba(255,255,255,.5);   
+}
+
+
+.pasatiempos {
+    color:rgb(173,20,87);
+}
+
+.metas {
+    color:rgb(106,27,154);
+}
+
+
+p a {
+    font-size:20px;
+    display:inline;
+}
+
+/* Selector de atributo */
+a[href="https://myspace.com/"] {
+    color:green;
+    font-size:30px;
+}
+
+
+
+
+#titulo {
+    font-weight:normal;
+    text-align:center;
+    text-shadow:1px 1px 5px #fff;
+}
+
+h2 {
+    text-transform:uppercase;
+    letter-spacing:1px;
+}
+
+.bio h2 {
+    font-weight:bold;
+}
+
+.bio p {
+    font-size:18px;
+    font-weight:normal;
+    text-align:left;
+    line-height:26px;
+    word-spacing:2px;
+    text-decoration:none;
+}
+
+a {
+    text-decoration:none;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+
+.bio {
+    position:relative;             
+    width:80%;
+    background:rgba(255,255,255,.6);
+    margin:20px auto;
+    padding:20px;
+    border:2px solid #c2185b;
+}
+
+.numero {
+    position:absolute;             
+    top:10px;
+    right:10px;
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background:#c2185b;
+    color:#fff;
+    text-align:center;
+    line-height:30px;
+    font-size:20px;
+    border-radius:50%;
+}
+
+.menu {
+    position:fixed;                
+    top:0;
+    left:0;
+    width:100%;
+}
+
+.subir {
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    background:#880e4f;
+    padding:10px;
+}
+
+.subir a {
+    color:#fff;
+}
+
+.equipo {
+    position:static;               
+    width:80%;
+    margin:20px auto;
+}
+
+
+.bio img {
+    float:left;
+    width:150px;
+    height:auto;
+    margin:10px;
+    padding:5px;
+    border:1px solid #ccc;
+    border-radius:5px;
+    box-shadow:5px 5px 0px #424242;
+}
+
+.bio .derecha {
+    float:right;
+}
+
+.clear {
+    clear:both;
+}
+
+
+.col1 {
+    float:left;
+    width:48%;
+}
+
+.col2 {
+    float:right;
+    width:48%;
+}
+
+.bio video,
+.bio audio {
+    width:90%;
+    margin:10px;
+}
+
+.bio video {
+    height:auto;
+}
+
+.equipo img {
+    display:block;
+    width:300px;
+    height:auto;
+    margin:auto;
+    border-radius:5px;
+    box-shadow:5px 5px 0px #424242;
+}
+
+.equipo h2,
+.equipo p {
+    text-align:center;
+}
+
+.equipo p {
+    font-weight:300;
+}
+
+
+
+
+.pasatiempos {
+    list-style-type:square;
+    list-style-position:inside;
+    margin:10px 30px;
+}
+
+.metas {
+    list-style-type:lower-latin;
+    list-style-position:inside;
+    margin:10px 30px;
+}
+
+.numeros {
+    list-style-type:decimal-leading-zero;
+}
+
+
+.menu {
+    background:#880e4f;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+.menu li {
+    display:inline-block;
+}
+
+.menu li a {
+    padding:10px 20px;
+    display:inline-block;
+    color:#fff;
+    font-size:16px;
+    text-transform:lowercase;
+}
+
+.menu li a:hover {
+    background:#c2185b;
+    text-decoration:underline;
+}
+
+
+table {
+    border:1px solid #000;
+    border-collapse:collapse;
+    width:60%;
+    margin:10px;
+    background:rgba(255,255,255,.5);
+}
+
+th {
+    background:#c2185b;
+    color:#fff;
+    padding:10px;
+}
+
+table td {
+    border:1px solid #000;
+    padding:20px;
+}
+
+table tr:hover {
+    background:#ccc;
+}
+
+table td:hover {
+    background:#000;
+    color:#fff;
+}
+
+
+form {
+    width:40%;
+    border:1px solid #ccc;
+    margin:20px;
+    padding:20px;
+    background:rgba(255,255,255,.6);
+}
+
+label {
+    font-size:12px;
+    display:block;
+    width:100%;
+}
+
+input, textarea {
+    margin-bottom:20px;
+    width:100%;
+    padding:10px;
+    box-sizing:border-box;
+    border:1px solid #ccc;
+}
+
+textarea {
+    resize:vertical;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #1668C4;
+}
+
+input[type="submit"] {
+    margin-bottom:0;
+    background:#1668C4;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover {
+    background:#880e4f;
+}
